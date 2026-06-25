@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans">
       
-      {/* Header */}
+      {/* Header
       <header className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur border-b border-gray-700 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -23,7 +23,27 @@ function App() {
           </div>
           <ModeToggle />
         </div>
-      </header>
+      </header> */}
+
+
+      <header className="sticky top-0 z-50 bg-gray-900/95 backdrop-blur border-b border-gray-700 px-4 md:px-6 py-4">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
+    
+    {/* Title Section */}
+    <div className="flex items-center gap-2 md:gap-3 w-full md:w-auto justify-center md:justify-start">
+      <div className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full flex-shrink-0 ${isRealtime ? 'bg-green-500 animate-pulse' : 'bg-gray-500'}`} />
+      <h1 className="text-xl md:text-2xl font-bold tracking-tight text-center">
+        Live Crypto Dashboard
+      </h1>
+    </div>
+
+    {/* Toggle Section */}
+    <div className="w-full md:w-auto">
+      <ModeToggle />
+    </div>
+
+  </div>
+</header>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto p-6 space-y-6">
