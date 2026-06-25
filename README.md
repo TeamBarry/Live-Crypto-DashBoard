@@ -12,7 +12,7 @@
 
 ## 🎯 Live Demo
 
-🔗 **[View Live Demo](https://your-vercel-url.vercel.app)**
+🔗 **[View Live Demo](https://live-crypto-dashboard-alpha.vercel.app/)**
 
 ---
 
@@ -124,7 +124,7 @@ live-dashboard/
 
 ```bash
 # Clone
-git clone https://github.com/yourusername/live-dashboard.git
+git clone https://github.com/TeamBarry/Live-Crypto-DashBoard.git
 cd live-dashboard
 
 # Install
