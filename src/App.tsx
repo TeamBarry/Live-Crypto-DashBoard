@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ModeToggle } from './features/modeToggle/ModeToggle';
 import { TopMetrics } from './features/metrics/TopMetrics';
 import { PriceChart } from './features/charts/PriceChart';
