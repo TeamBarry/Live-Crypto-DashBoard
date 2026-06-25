@@ -165,7 +165,7 @@ npm run build
 
 | Dashboard | Chart | Table |
 |-----------|-------|-------|
-| ![Dashboard](screenshots/dashboard.png) | ![Chart](screenshots/chart.png) | ![Table](screenshots/table.png) |
+| ![Dashboard](public/screenshots/dashboard.png) | ![Chart](public/screenshots/chart.png) | ![Table](public/screenshots/table.png) |
 
 ---
 
