@@ -181,7 +181,7 @@ npm run build
 
 ## 📄 License
 
-MIT © [Zubair Zafar](https://github.com/yourusername)
+MIT © [Zubair Zafar](https://github.com/TeamBarry)
 
 ---
 
